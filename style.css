@@ -1,0 +1,82 @@
+.header {
+    background-color: #02D4B1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    margin-bottom: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+select {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+
+
+
+    .header {
+        justify-content: start;
+        text-align: left;
+    }
+
+    .header h1,
+    span {
+        margin-left: 50px;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    input,
+    textarea {
+        width: 100vh;
+    }
+
+    label {
+        margin: 10px 0;
+    }
+
+    select {
+        margin: 10px 0;
+    }
+
+
+
+}
