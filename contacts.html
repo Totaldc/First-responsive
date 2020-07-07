@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="wrapper">
+            <h1>Login or register!</h1>
+            <span>Use this page to either login or register to our system</span>
+        </div>
+    </section>
+    <section class="container">
+        <div class="wrapper">
+            <div class="flex">
+                <div class="w-45">
+                    <form name="login" method="POST">
+                        <h3>Login</h3>
+                        <label for="login-email">Email</label>
+                        <input id="login-email" type="email" name="" placeholder="alexsmith@gmail.com">
+                        <label for="login-password">Password</label>
+                        <input id="login-password" type="password" name="login_password" placeholder="Password">
+                        <input type="submit" name="submit_login" value="Login">
+                    </form>
+                </div>
+                <div class="w-45">
+                    <form name="register" method="POST">
+                        <h3>Register</h3>
+                        <label for="register-email">Email</label>
+                        <input id="register-email" type="email" name="" placeholder="alexsmith@gmail.com">
+                        <label for="register-pasword">Password</label>
+                        <input id="register-password" type="password" name="login_password" placeholder="Password">
+                        <input type="submit" name="submit_register" value="Register">
+                    </form>
+                </div>
+            </div>
+            <div class="links">
+                <a href="#">Property list</a>
+                <a href="#">Property sale</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
